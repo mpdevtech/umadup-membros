@@ -14,29 +14,27 @@
  }
  body {
     background-color: #E5E5E5 !important;
-    height: 100vh !important;
+    /* height: 100vh !important; */
  }
 
  .logo {
-     width: 200px;
+     width: 180px;
  }
-.bg-umadup {
-    background-image: url(/css/img/Camada\ 1.png);
+/* .bg-umadup {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-top-right-radius: 20px !important;
-    border-bottom-right-radius: 20px !important;
-}
+    border-bottom-right-radius: 20px !important; 
+} */
 .container {
-    height: 100% !important;
-    max-width: 1000px !important;
+    max-width: 900px !important;
 }
 .radius {
     border-radius: 20px !important;
 }
 .row {
-    box-shadow: 5px 5px 90px hsl(0, 0%, 85%);
+    box-shadow: 5px 5px 120px hsl(0, 0%, 85%);
 }
 p, h1 {
     color: #0063A6 !important;
@@ -44,5 +42,9 @@ p, h1 {
 h1 {
     letter-spacing: -1px;
     font-weight: 800 !important;
+}
+.bandeira {
+    width: 100%;
+    height: 100%;
 }
 
